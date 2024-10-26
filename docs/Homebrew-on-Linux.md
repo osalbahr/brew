@@ -79,7 +79,7 @@ To install build tools, paste at a terminal prompt:
 
 Homebrew can run on 32-bit ARM (Raspberry Pi and others) and 64-bit ARM (AArch64), but as they lack binary packages (bottles) they are unsupported. Pull requests are welcome to improve the experience on ARM platforms.
 
-You may need to install your own Ruby using your system package manager, a PPA, or `rbenv/ruby-build` as we no longer distribute a Homebrew Portable Ruby for ARM.
+You may need to install your own Ruby using your system package manager, a PPA, or `rbenv/ruby-build` as we no longer distribute a Homebrew Portable Ruby for ARM. You might also need to install the `cpan` package.
 
 ### 32-bit x86 (incompatible)
 
