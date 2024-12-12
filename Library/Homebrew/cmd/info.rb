@@ -352,6 +352,9 @@ module Homebrew
         ohai "Caveats", caveats.to_s unless caveats.empty?
 
         Utils::Analytics.formula_output(formula, args:)
+
+        ohai "Size"
+        puts "Bottle size: 0"
       end
 
       def decorate_dependencies(dependencies)
