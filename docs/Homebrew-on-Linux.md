@@ -81,9 +81,9 @@ To install build tools, paste at a terminal prompt:
   sudo pacman -S base-devel procps-ng curl file git
   ```
 
-### ARM32 (Tier 3 Support)
+### ARM32 (Tier 2 Support)
 
-Homebrew can run on 32-bit ARM systems (e.g. Raspberry Pi and others), but as they lack bottles (binary packages) they are a [Tier 3 supported platform](Support-Tiers.md#tier-3).
+Homebrew can run on 32-bit ARM systems (e.g. Raspberry Pi and others), but as they lack bottles (binary packages) they are a [Tier 2 supported platform](Support-Tiers.md#tier-2).
 
 You may need to install your own Ruby using your system package manager, a PPA, or `rbenv/ruby-build` as we don't distribute a Homebrew Portable Ruby for ARM32.
 
